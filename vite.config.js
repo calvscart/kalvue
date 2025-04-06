@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import Markdown from 'vite-plugin-vue-markdown'
+import md from 'vite-plugin-md-vue'
 
 export default defineConfig({
   plugins: [
-    vue({ include: [/\.vue$/, /\.md$/] }),
-    Markdown()
+    vue({ include: [/\\.vue$/, /\\.md$/] }),
+    md()
   ]
 })
