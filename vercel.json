@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/public", "destination": "/public/contact.html" },
+    { "source": "/public", "destination": "/public/card.html" }
+  ],
+  "cleanUrls": true
+}
