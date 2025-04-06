@@ -1,17 +1,18 @@
 {
-  "name": "kalrex-vue",
+  "name": "kalrex-nextjs",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "vue": "^3.4.0"
-  },
-  "devDependencies": {
-    "vite": "^4.5.0",
-    "@vitejs/plugin-vue": "^4.5.0",
-    "vite-plugin-md-vue": "^1.2.0"
+    "autoprefixer": "^10.4.0",
+    "framer-motion": "latest",
+    "next": "latest",
+    "postcss": "^8.4.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "^3.0.0"
   }
 }
